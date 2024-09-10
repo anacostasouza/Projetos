@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Circle",
+            "request": "launch",
+            "mainClass": "Circle",
+            "projectName": "ola_f5f55ec0"
+        },
+        {
+            "type": "java",
+            "name": "Media",
+            "request": "launch",
+            "mainClass": "Media",
+            "projectName": "ola_f5f55ec0"
+        },
+        {
+            "type": "java",
+            "name": "RealDolar",
+            "request": "launch",
+            "mainClass": "RealDolar",
+            "projectName": "ola_f5f55ec0"
+        },
+        {
+            "type": "java",
+            "name": "RestoDivisao",
+            "request": "launch",
+            "mainClass": "RestoDivisao",
+            "projectName": "ola_f5f55ec0"
+        },
+        {
+            "type": "java",
+            "name": "Troca",
+            "request": "launch",
+            "mainClass": "Troca",
+            "projectName": "ola_f5f55ec0"
+        },
+        {
+            "type": "java",
+            "name": "agua",
+            "request": "launch",
+            "mainClass": "agua",
+            "projectName": "ola_f5f55ec0"
+        },
+        {
+            "type": "java",
+            "name": "caneta",
+            "request": "launch",
+            "mainClass": "caneta",
+            "projectName": "ola_f5f55ec0"
+        },
+        {
+            "type": "java",
+            "name": "cartesiano",
+            "request": "launch",
+            "mainClass": "cartesiano",
+            "projectName": "ola_f5f55ec0"
+        },
+        {
+            "type": "java",
+            "name": "celsiusFarem",
+            "request": "launch",
+            "mainClass": "celsiusFarem",
+            "projectName": "ola_f5f55ec0"
+        },
+        {
+            "type": "java",
+            "name": "ceramica",
+            "request": "launch",
+            "mainClass": "ceramica",
+            "projectName": "ola_f5f55ec0"
+        },
+        {
+            "type": "java",
+            "name": "salarioLiquido",
+            "request": "launch",
+            "mainClass": "salarioLiquido",
+            "projectName": "ola_f5f55ec0"
+        }
+    ]
+}
