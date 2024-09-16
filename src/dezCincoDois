@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class dois {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Digite um numero: ");   
+    double numero = scanner.nextDouble();
+
+    if (numero % 10 == 0 && numero % 5 == 0 && numero % 2 == 0) {
+        System.out.println("O numero é divisivel por 10, 5 e 2");
+    } else if (numero % 10 == 0) {
+      System.out.println("O numero é divisivel por 10");
+    } else if (numero % 5 == 0) {
+      System.out.println("O numero é divisivel por 5");
+    } else if (numero % 2 == 0) {
+      System.out.println("O numero é divisivel por 2");
+    } else {
+      System.out.println("O numero não é divisivel por 10, 5 ou 2");
+    }
+    scanner.close();
+  }
+}
