@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+  class tres  {
+    public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
+      System.out.println("Digite o valor do numero");
+      double num = scanner.nextDouble();
+
+      if (num % 3 == 0 && num % 7 == 0) {
+        System.out.printIn(num + " é divisivel por 3 e 7");
+      } else {
+        System.out.printIn(num + " não é divisivel por 3 e 7");
+      }
+      
+      scanner.close();
+    }
+}
