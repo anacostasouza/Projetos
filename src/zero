@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args){
+   Scanner scanner = new Scanner(System.in);
+    int numero;
+    
+    System.out.println("Digite um numero: ");
+    
+
+    do {
+      numero = scanner.nextInt();
+        if (numero != 0) {
+            System.out.println("O numero digitado foi: " + numero);
+        }
+    } while (numero != 0);
+
+    System.out.println("Encerrado!")
+  scanner.close();
+  }
+}
